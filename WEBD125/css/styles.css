@@ -1,10 +1,63 @@
 /* this is my css styles sheet */
 
+/* week 2 */
 #header_h1 {
     color: red
 }
-
 .home_article {
     background-color: lightgray;
     padding: 10px;
 }
+
+/* week 3 - media queries */
+/* using arbitrary px size from */
+/* https://learn.microsoft.com/en-us/windows/apps/design/layout/screen-sizes-and-breakpoints-for-responsive-design */
+
+/* small: less than 640px */
+@media screen and (max-width: 640px) {
+    article#small { 
+        background-color: red;
+        color: white;
+    }
+    footer {
+        color: red;
+    }
+}
+
+/* medium: less than 1007px */
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+    article#medium { 
+        background-color: green;
+        color: white;
+    }
+    footer {
+        color: green;
+    }
+}
+
+/* Large: greater than 1008px */
+@media screen and (min-width: 1008px) {
+    article#large { 
+        background-color: blue;
+        color: white;
+    }
+    footer {
+        color: blue;
+    }
+}
+
+/* orientation portrait */
+@media screen and (orientation: landscape) {
+    #header_h2 { 
+        background-color: white;
+        color: white;
+    }
+}
+/* portrait is height > width */
+@media screen and (orientation: portrait) {
+    #header_h2 { 
+        background-color: yellow;
+        color: black;
+    }
+}
+
