@@ -67,7 +67,7 @@
 
 /* week 4 assignment */
 
-nav:hover {
+nav {
 
 }
 
@@ -75,7 +75,7 @@ ul {
     display: flex;
     background-color: darkblue;
     height: 80px;
-    width: calc(194% / 2);
+    width: calc(197% / 2);
     align-items: center;
     /* justify-content: left; */
     padding-left: 10px;
