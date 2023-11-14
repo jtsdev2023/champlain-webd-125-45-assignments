@@ -2,11 +2,12 @@
 
 /* week 2 */
 #header_h1 {
-    color: red
+    color: red;
 }
 .home_article {
     background-color: lightgray;
     padding: 10px;
+    width: calc(196% / 2);
 }
 
 /* week 3 - media queries */
@@ -55,9 +56,46 @@
 }
 /* portrait is height > width */
 @media screen and (orientation: portrait) {
+    #header_h1 {
+        color: white;
+    }
     #header_h2 { 
         background-color: yellow;
         color: black;
     }
 }
 
+/* week 4 assignment */
+
+nav:hover {
+
+}
+
+ul {
+    display: flex;
+    background-color: darkblue;
+    height: 80px;
+    width: calc(194% / 2);
+    align-items: center;
+    /* justify-content: left; */
+    padding-left: 10px;
+}
+
+ul:hover {
+    background-color: blueviolet;
+    border: 2px solid red;
+}
+
+li {
+    list-style: none;
+    /* width: calc(100% / 4); */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 5px 5px 0px 20px;
+}
