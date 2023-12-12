@@ -160,3 +160,19 @@ label#email {
 label#streetAddress {
     padding-right: 48px;
 }
+
+div.submit {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+input[type="submit"] {
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+}
