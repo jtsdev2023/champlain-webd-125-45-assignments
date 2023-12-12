@@ -4,17 +4,17 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contact</title>
+        <title>Week 6: Contact</title>
         <link rel="stylesheet" href="../css/contact-styles.css">
         <!-- week 5: google fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Zen+Dots&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Zen+Dots&family=Orbitron:wght@900&family=Black+Ops+One&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <h1 id="contact_h1">JT Sizemore: <span id="h1_span">Contact</span></h1>
-            <h2 id="orientation_h2"><span id="span_s1">ORIENTATION:</span><span id="span_s2">PORTRAIT</span></h2>
+            <h1 id="contact_h1">JT Sizemore</h1>
+            <h2 id="orientation_h2"><span id="span_s1">ORIENTATION: </span><span id="span_s2">PORTRAIT</span></h2>
             <nav>
                 <ul>
                     <li class="li-small">
@@ -33,7 +33,25 @@
             </nav>
         </header>
         <main>
-            <article id="small" class="contact_article">
+           <!-- week 6: repsonsive images -->
+           <picture>
+            <source
+                srcset="../images/image1.jpg"
+                media="(min-width: 2000px)"
+                width = "100%"
+                height = "auto"
+                alt="CCP Eve Online in-game image of docked spaceship"
+            >
+            <source
+                srcset="../images/image2.jpg"
+                media="(min-width: 1200px)"
+                width="100%"
+                height="auto"
+                alt="Ubisoft The Division 2 in-game image of initial character screen"
+            >
+            <img class="small" src="../images/image3.jpg" alt="Blizzard Starcraft 2 versus in-game screen">
+        </picture>
+            <article id="small" class="home_article">
                 <h2>Place Holder</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -41,7 +59,7 @@
                     Quisquam veritatis repellat perspiciatis iusto commodi cupiditate fugiat. Possimus, dolore veniam.
                 </p>
             </article>
-            <article id="medium" class="contact_article">
+            <article id="medium" class="home_article">
                 <h2>Place Holder</h2>
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
@@ -49,7 +67,7 @@
                     Quod, dolore cum amet natus, voluptatem a ducimus sit eveniet, quibusdam odio rerum.
                 </p>
             </article>
-            <article id="large" class="contact_article">
+            <article id="large" class="home_article">
                 <h2>Place Holder</h2>
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
