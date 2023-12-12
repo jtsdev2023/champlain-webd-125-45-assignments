@@ -76,7 +76,6 @@ h1 {
 ul {
     display: flex;
     background-color: darkblue;
-    /* background-image: url("../images/camo.jpeg"); */
     background-image: url(https://media3.giphy.com/media/j72urIj7e8dpthdl4B/giphy.gif?cid=ecf05e47gyazt36b0f2bzqqs12nr04j0gnasl3lbu9dapkrl&ep=v1_gifs_related&rid=giphy.gif&ct=g);
     background-size: cover;
     background-position: center;
@@ -129,4 +128,35 @@ footer {
 .small {
     width: 100%;
     height: auto;
+}
+
+form {
+    font-family: "Nova Square";
+    font-style: normal;
+}
+
+fieldset.contact {
+    margin-top: 20px;
+    padding-left: 10px;
+    /* border: 1px solid black; */
+}
+
+b {
+    color: red;
+}
+
+div.form {
+    margin-top: 20px;
+}
+
+label#firstName {
+    padding-right: 26px;
+}
+
+label#email {
+    padding-right: 1px;
+}
+
+label#streetAddress {
+    padding-right: 48px;
 }
