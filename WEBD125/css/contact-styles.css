@@ -20,7 +20,7 @@ h1 {
 /* https://learn.microsoft.com/en-us/windows/apps/design/layout/screen-sizes-and-breakpoints-for-responsive-design */
 
 /* small: less than 640px */
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 640px) {
     article#small { 
         background-color: red;
         color: white;
@@ -28,10 +28,10 @@ h1 {
     footer {
         color: red;
     }
-}
+} */
 
 /* medium: less than 1007px */
-@media screen and (min-width: 641px) and (max-width: 1007px) {
+/* @media screen and (min-width: 641px) and (max-width: 1007px) {
     article#medium { 
         background-color: green;
         color: white;
@@ -39,10 +39,10 @@ h1 {
     footer {
         color: green;
     }
-}
+} */
 
 /* Large: greater than 1008px */
-@media screen and (min-width: 1008px) {
+/* @media screen and (min-width: 1008px) {
     article#large { 
         background-color: blue;
         color: white;
@@ -50,7 +50,7 @@ h1 {
     footer {
         color: blue;
     }
-}
+} */
 
 /* orientation portrait */
 @media screen and (orientation: landscape) {
@@ -145,12 +145,16 @@ b {
     color: red;
 }
 
-div.form {
+div.name {
     margin-top: 20px;
 }
 
 label#firstName {
     padding-right: 26px;
+}
+
+div.email {
+    
 }
 
 label#email {
@@ -159,6 +163,10 @@ label#email {
 
 label#streetAddress {
     padding-right: 48px;
+}
+
+div.newsletter {
+    
 }
 
 div.submit {
@@ -175,4 +183,69 @@ input[type="submit"]:hover {
     background-color: blue;
     color: white;
     font-weight: bolder;
+}
+
+/* -------------------- */
+
+.name, .email, .phone, .streetAddress {
+    padding: 10px 0px;
+}
+
+/* small: less than 640px */
+@media screen and (max-width: 640px) {
+    article#small { 
+        background-color: red;
+        color: white;
+    }
+    footer {
+        color: red;
+    }
+    .name, .email, .phone, .streetAddress {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+}
+
+/* medium: less than 1007px */
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+    article#medium { 
+        background-color: green;
+        color: white;
+    }
+    footer {
+        color: green;
+    }
+    .name, .email, .phone, .streetAddress {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+}
+
+/* Large: greater than 1008px */
+@media screen and (min-width: 1008px) and (max-width: 1029px) {
+    article#large { 
+        background-color: blue;
+        color: white;
+    }
+    footer {
+        color: blue;
+    }
+    .name, .email, .phone, .streetAddress {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+}
+
+/* Large: greater than 1008px */
+@media screen and (min-width: 1030px) {
+    article#large { 
+        background-color: blue;
+        color: white;
+    }
+    footer {
+        color: blue;
+    }
 }
