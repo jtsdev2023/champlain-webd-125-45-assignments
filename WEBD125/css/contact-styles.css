@@ -17,41 +17,6 @@ h1 {
     width: calc(196% / 2);
 }
 
-/* https://learn.microsoft.com/en-us/windows/apps/design/layout/screen-sizes-and-breakpoints-for-responsive-design */
-
-/* small: less than 640px */
-/* @media screen and (max-width: 640px) {
-    article#small { 
-        background-color: red;
-        color: white;
-    }
-    footer {
-        color: red;
-    }
-} */
-
-/* medium: less than 1007px */
-/* @media screen and (min-width: 641px) and (max-width: 1007px) {
-    article#medium { 
-        background-color: green;
-        color: white;
-    }
-    footer {
-        color: green;
-    }
-} */
-
-/* Large: greater than 1008px */
-/* @media screen and (min-width: 1008px) {
-    article#large { 
-        background-color: blue;
-        color: white;
-    }
-    footer {
-        color: blue;
-    }
-} */
-
 /* orientation portrait */
 @media screen and (orientation: landscape) {
     #orientation_h2 { 
@@ -69,7 +34,6 @@ h1 {
         color: black;
         font-family: 'Black Ops One', sans-serif;
         font-weight: 100;
-        /* border: 1px dotted black; */
     }
 }
 
@@ -138,7 +102,6 @@ form {
 fieldset.contact {
     margin-top: 20px;
     padding-left: 10px;
-    /* border: 1px solid black; */
 }
 
 b {
@@ -153,20 +116,12 @@ label#firstName {
     padding-right: 26px;
 }
 
-div.email {
-    
-}
-
 label#email {
     padding-right: 1px;
 }
 
 label#streetAddress {
     padding-right: 48px;
-}
-
-div.newsletter {
-    
 }
 
 div.submit {
@@ -179,7 +134,7 @@ input[type="submit"] {
     padding: 5px;
 }
 
-/* -------------------- */
+/* Week 7 */
 
 .name, .email, .phone, .streetAddress, .newsletter {
     padding: 10px 0px;
