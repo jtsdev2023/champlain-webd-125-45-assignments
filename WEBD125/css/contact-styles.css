@@ -179,15 +179,9 @@ input[type="submit"] {
     padding: 5px;
 }
 
-input[type="submit"]:hover {
-    background-color: blue;
-    color: white;
-    font-weight: bolder;
-}
-
 /* -------------------- */
 
-.name, .email, .phone, .streetAddress {
+.name, .email, .phone, .streetAddress, .newsletter {
     padding: 10px 0px;
 }
 
@@ -200,10 +194,15 @@ input[type="submit"]:hover {
     footer {
         color: red;
     }
-    .name, .email, .phone, .streetAddress {
+    .name, .email, .phone, .streetAddress, .newsletter {
         display: flex;
         flex-direction: column;
         padding: 10px 0px;
+    }
+    input[type="submit"]:hover {
+        background-color: red;
+        color: white;
+        font-weight: bolder;
     }
 }
 
@@ -216,10 +215,15 @@ input[type="submit"]:hover {
     footer {
         color: green;
     }
-    .name, .email, .phone, .streetAddress {
+    .name, .email, .phone, .streetAddress, .newsletter {
         display: flex;
         flex-direction: column;
         padding: 10px 0px;
+    }
+    input[type="submit"]:hover {
+        background-color: green;
+        color: white;
+        font-weight: bolder;
     }
 }
 
@@ -232,10 +236,15 @@ input[type="submit"]:hover {
     footer {
         color: blue;
     }
-    .name, .email, .phone, .streetAddress {
+    .name, .email, .phone, .streetAddress, .newsletter {
         display: flex;
         flex-direction: column;
         padding: 10px 0px;
+    }
+    input[type="submit"]:hover {
+        background-color: blue;
+        color: white;
+        font-weight: bolder;
     }
 }
 
@@ -247,5 +256,10 @@ input[type="submit"]:hover {
     }
     footer {
         color: blue;
+    }
+    input[type="submit"]:hover {
+        background-color: blue;
+        color: white;
+        font-weight: bolder;
     }
 }
