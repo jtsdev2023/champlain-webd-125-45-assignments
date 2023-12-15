@@ -76,7 +76,6 @@ h1 {
 ul {
     display: flex;
     background-color: darkblue;
-    /* background-image: url("../images/camo.jpeg"); */
     background-image: url(https://media3.giphy.com/media/j72urIj7e8dpthdl4B/giphy.gif?cid=ecf05e47gyazt36b0f2bzqqs12nr04j0gnasl3lbu9dapkrl&ep=v1_gifs_related&rid=giphy.gif&ct=g);
     background-size: cover;
     background-position: center;
@@ -127,6 +126,6 @@ footer {
 }
 
 .small {
-    width: 75%;
+    width: 100%;
     height: auto;
 }

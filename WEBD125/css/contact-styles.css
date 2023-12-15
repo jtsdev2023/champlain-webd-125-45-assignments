@@ -17,41 +17,6 @@ h1 {
     width: calc(196% / 2);
 }
 
-/* https://learn.microsoft.com/en-us/windows/apps/design/layout/screen-sizes-and-breakpoints-for-responsive-design */
-
-/* small: less than 640px */
-@media screen and (max-width: 640px) {
-    article#small { 
-        background-color: red;
-        color: white;
-    }
-    footer {
-        color: red;
-    }
-}
-
-/* medium: less than 1007px */
-@media screen and (min-width: 641px) and (max-width: 1007px) {
-    article#medium { 
-        background-color: green;
-        color: white;
-    }
-    footer {
-        color: green;
-    }
-}
-
-/* Large: greater than 1008px */
-@media screen and (min-width: 1008px) {
-    article#large { 
-        background-color: blue;
-        color: white;
-    }
-    footer {
-        color: blue;
-    }
-}
-
 /* orientation portrait */
 @media screen and (orientation: landscape) {
     #orientation_h2 { 
@@ -69,14 +34,12 @@ h1 {
         color: black;
         font-family: 'Black Ops One', sans-serif;
         font-weight: 100;
-        /* border: 1px dotted black; */
     }
 }
 
 ul {
     display: flex;
     background-color: darkblue;
-    /* background-image: url("../images/camo.jpeg"); */
     background-image: url(https://media3.giphy.com/media/j72urIj7e8dpthdl4B/giphy.gif?cid=ecf05e47gyazt36b0f2bzqqs12nr04j0gnasl3lbu9dapkrl&ep=v1_gifs_related&rid=giphy.gif&ct=g);
     background-size: cover;
     background-position: center;
@@ -129,4 +92,129 @@ footer {
 .small {
     width: 100%;
     height: auto;
+}
+
+form {
+    font-family: "Nova Square";
+    font-style: normal;
+}
+
+fieldset.contact {
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+b {
+    color: red;
+}
+
+div.name {
+    margin-top: 20px;
+}
+
+label#firstName {
+    padding-right: 26px;
+}
+
+label#email {
+    padding-right: 1px;
+}
+
+label#streetAddress {
+    padding-right: 48px;
+}
+
+div.submit {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+input[type="submit"] {
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+/* Week 7 */
+
+.name, .email, .phone, .streetAddress, .newsletter {
+    padding: 10px 0px;
+}
+
+/* small: less than 640px */
+@media screen and (max-width: 640px) {
+    article#small { 
+        background-color: red;
+        color: white;
+    }
+    footer {
+        color: red;
+    }
+    .name, .email, .phone, .streetAddress, .newsletter {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    input[type="submit"]:hover {
+        background-color: red;
+        color: white;
+        font-weight: bolder;
+    }
+}
+
+/* medium: less than 1007px */
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+    article#medium { 
+        background-color: green;
+        color: white;
+    }
+    footer {
+        color: green;
+    }
+    .name, .email, .phone, .streetAddress, .newsletter {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    input[type="submit"]:hover {
+        background-color: green;
+        color: white;
+        font-weight: bolder;
+    }
+}
+
+/* Large: greater than 1008px */
+@media screen and (min-width: 1008px) and (max-width: 1029px) {
+    article#large { 
+        background-color: blue;
+        color: white;
+    }
+    footer {
+        color: blue;
+    }
+    .name, .email, .phone, .streetAddress, .newsletter {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    input[type="submit"]:hover {
+        background-color: blue;
+        color: white;
+        font-weight: bolder;
+    }
+}
+
+/* Large: greater than 1008px */
+@media screen and (min-width: 1030px) {
+    article#large { 
+        background-color: blue;
+        color: white;
+    }
+    footer {
+        color: blue;
+    }
+    input[type="submit"]:hover {
+        background-color: blue;
+        color: white;
+        font-weight: bolder;
+    }
 }
