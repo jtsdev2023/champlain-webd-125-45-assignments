@@ -159,6 +159,18 @@ input[type="submit"] {
         color: white;
         font-weight: bolder;
     }
+    fieldset {
+        background-color: rgb(255, 230, 230);
+    }
+    legend {
+        background-color: white;
+        color: red;
+        border: 1px solid red;
+        font-weight: bolder;
+    }
+    label {
+        color: red;
+    }
 }
 
 /* medium: less than 1007px */
@@ -179,6 +191,18 @@ input[type="submit"] {
         background-color: green;
         color: white;
         font-weight: bolder;
+    }
+    fieldset {
+        background-color: rgb(230, 255, 230);
+    }
+    legend {
+        background-color: white;
+        color: green;
+        border: 1px solid green;
+        font-weight: bolder;
+    }
+    label {
+        color: green;
     }
 }
 
@@ -201,6 +225,18 @@ input[type="submit"] {
         color: white;
         font-weight: bolder;
     }
+    fieldset {
+        background-color: rgb(230, 230, 255);
+    }
+    legend {
+        background-color: white;
+        color: blue;
+        border: 1px solid blue;
+        font-weight: bolder;
+    }
+    label {
+        color: blue;
+    }
 }
 
 /* Large: greater than 1008px */
@@ -216,5 +252,17 @@ input[type="submit"] {
         background-color: blue;
         color: white;
         font-weight: bolder;
+    }
+    fieldset {
+        background-color: rgb(230, 230, 255);
+    }
+    legend {
+        background-color: white;
+        color: blue;
+        border: 1px solid blue;
+        font-weight: bolder;
+    }
+    label {
+        color: blue;
     }
 }
